@@ -1,0 +1,316 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "organizations",
+          "name": "organizations",
+          "type": "block",
+          "fields": [
+            {
+              "title": "0",
+              "name": "0",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "name",
+                  "name": "name",
+                  "type": "string"
+                },
+                {
+                  "title": "url",
+                  "name": "url",
+                  "type": "string"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "superuser",
+          "name": "superuser",
+          "type": "boolean"
+        },
+        {
+          "title": "authors",
+          "name": "authors",
+          "type": "choice",
+          "choices": [
+            "余磊"
+          ]
+        },
+        {
+          "title": "role",
+          "name": "role",
+          "type": "string"
+        },
+        {
+          "title": "bio",
+          "name": "bio",
+          "type": "string"
+        },
+        {
+          "title": "interests",
+          "name": "interests",
+          "type": "choice",
+          "choices": [
+            "Signal Processing",
+            "Event-based Vision Perception",
+            "Computer Vision"
+          ]
+        },
+        {
+          "title": "social",
+          "name": "social",
+          "type": "block",
+          "fields": [
+            {
+              "title": "0",
+              "name": "0",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "icon",
+                  "name": "icon",
+                  "type": "string"
+                },
+                {
+                  "title": "icon_pack",
+                  "name": "icon_pack",
+                  "type": "string"
+                },
+                {
+                  "title": "link",
+                  "name": "link",
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "title": "1",
+              "name": "1",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "icon",
+                  "name": "icon",
+                  "type": "string"
+                },
+                {
+                  "title": "icon_pack",
+                  "name": "icon_pack",
+                  "type": "string"
+                },
+                {
+                  "title": "link",
+                  "name": "link",
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "title": "2",
+              "name": "2",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "icon",
+                  "name": "icon",
+                  "type": "string"
+                },
+                {
+                  "title": "icon_pack",
+                  "name": "icon_pack",
+                  "type": "string"
+                },
+                {
+                  "title": "link",
+                  "name": "link",
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "title": "3",
+              "name": "3",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "icon",
+                  "name": "icon",
+                  "type": "string"
+                },
+                {
+                  "title": "icon_pack",
+                  "name": "icon_pack",
+                  "type": "string"
+                },
+                {
+                  "title": "link",
+                  "name": "link",
+                  "type": "string"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "education",
+          "name": "education",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "courses",
+              "name": "courses",
+              "type": "block",
+              "fields": [
+                {
+                  "title": "0",
+                  "name": "0",
+                  "type": "fields",
+                  "fields": [
+                    {
+                      "title": "course",
+                      "name": "course",
+                      "type": "string"
+                    },
+                    {
+                      "title": "institution",
+                      "name": "institution",
+                      "type": "string"
+                    },
+                    {
+                      "title": "year",
+                      "name": "year",
+                      "type": "number"
+                    }
+                  ]
+                },
+                {
+                  "title": "1",
+                  "name": "1",
+                  "type": "fields",
+                  "fields": [
+                    {
+                      "title": "course",
+                      "name": "course",
+                      "type": "string"
+                    },
+                    {
+                      "title": "institution",
+                      "name": "institution",
+                      "type": "string"
+                    },
+                    {
+                      "title": "year",
+                      "name": "year",
+                      "type": "number"
+                    }
+                  ]
+                },
+                {
+                  "title": "2",
+                  "name": "2",
+                  "type": "fields",
+                  "fields": [
+                    {
+                      "title": "course",
+                      "name": "course",
+                      "type": "string"
+                    },
+                    {
+                      "title": "institution",
+                      "name": "institution",
+                      "type": "string"
+                    },
+                    {
+                      "title": "year",
+                      "name": "year",
+                      "type": "number"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "email",
+          "name": "email",
+          "type": "string"
+        },
+        {
+          "title": "user_groups",
+          "name": "user_groups",
+          "type": "choice",
+          "choices": [
+            "Researchers",
+            "Visitors"
+          ]
+        },
+        {
+          "title": "last_name",
+          "name": "last_name",
+          "type": "string"
+        },
+        {
+          "title": "first_name",
+          "name": "first_name",
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.preview.host": "http://localhost:1313",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "content",
+      "path": "[[workspace]]/content"
+    }
+  ],
+  "frontMatter.git.enabled": true,
+  "frontMatter.dashboard.openOnStart": true
+}

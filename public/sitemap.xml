@@ -2,101 +2,119 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:58547/event/example/</loc>
+    <loc>http://localhost:1313/event/example/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:58547/event/</loc>
+    <loc>http://localhost:1313/event/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:58547/</loc>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2024-04-20T15:32:07+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/post/24-04-20-%E5%9F%BA%E4%BA%8Ehugogithub%E5%92%8Cnetlify%E7%9A%84%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84/</loc>
+    <lastmod>2024-04-20T15:32:07+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/authors/</loc>
+    <lastmod>2024-04-20T15:20:52+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2024-04-20T15:20:52+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/author/lei-yu/</loc>
+    <lastmod>2024-04-20T15:20:52+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/author/lei-yu/</loc>
+    <lastmod>2024-04-20T15:20:52+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tag/leiyu/</loc>
+    <lastmod>2024-04-20T15:20:52+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-04-20T15:20:52+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/category/users/</loc>
+    <lastmod>2024-04-20T15:20:52+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:58547/contact/</loc>
+    <loc>http://localhost:1313/contact/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:58547/people/</loc>
+    <loc>http://localhost:1313/people/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:58547/tour/</loc>
+    <loc>http://localhost:1313/tour/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:58547/post/20-12-02-icml-best-paper/</loc>
+    <loc>http://localhost:1313/post/20-12-02-icml-best-paper/</loc>
     <lastmod>2020-12-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:58547/post/</loc>
-    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:58547/post/20-12-01-wowchemy-prize/</loc>
+    <loc>http://localhost:1313/post/20-12-01-wowchemy-prize/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:58547/publication/preprint/</loc>
+    <loc>http://localhost:1313/publication/preprint/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:58547/publication-type/article/</loc>
+    <loc>http://localhost:1313/publication-type/article/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:58547/authors/</loc>
+    <loc>http://localhost:1313/author/nelson-bighetti/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:58547/author/nelson-bighetti/</loc>
+    <loc>http://localhost:1313/publication_types/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:58547/publication_types/</loc>
+    <loc>http://localhost:1313/publication/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:58547/publication/</loc>
+    <loc>http://localhost:1313/tag/source-themes/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:58547/tag/source-themes/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:58547/tags/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:58547/publication/journal-article/</loc>
+    <loc>http://localhost:1313/publication/journal-article/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:58547/publication-type/article-journal/</loc>
+    <loc>http://localhost:1313/publication-type/article-journal/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:58547/author/robert-ford/</loc>
+    <loc>http://localhost:1313/author/robert-ford/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:58547/publication/conference-paper/</loc>
+    <loc>http://localhost:1313/publication/conference-paper/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:58547/publication-type/paper-conference/</loc>
+    <loc>http://localhost:1313/publication-type/paper-conference/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:58547/admin/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:58547/author/alice-wu-%E5%90%B3%E6%81%A9%E9%81%94/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:58547/categories/</loc>
+    <loc>http://localhost:1313/admin/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

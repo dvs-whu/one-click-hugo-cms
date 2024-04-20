@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leiyu | DVS-WHU Group</title>
+    <link>http://localhost:1313/tag/leiyu/</link>
+      <atom:link href="http://localhost:1313/tag/leiyu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Leiyu</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 20 Apr 2024 15:20:52 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Leiyu</title>
+      <link>http://localhost:1313/tag/leiyu/</link>
+    </image>
+    
+    <item>
+      <title>Lei Yu</title>
+      <link>http://localhost:1313/author/lei-yu/</link>
+      <pubDate>Sat, 20 Apr 2024 15:20:52 +0000</pubDate>
+      <guid>http://localhost:1313/author/lei-yu/</guid>
+      <description>&lt;p&gt;余磊 is currently a full Professor of the &lt;a href=&#34;http://eis.whu.edu.cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;School of Electronic and Information&lt;/a&gt; at &lt;a href=&#34;http://www.whu.edu.cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wuhan University&lt;/a&gt; and leading a group &lt;a href=&#34;http://dvs-whu.cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DVS-WHU&lt;/a&gt; in the &lt;a href=&#34;http://dsp.whu.edu.cn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SPLab&lt;/a&gt; which is devoted for &lt;a href=&#34;https://github.com/uzh-rpg/event-based_vision_resources&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;event-based perception&lt;/a&gt;. In general his research interest includes signal processing, deep learning and computer vision. Specifically, he is currently interested in:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sparse Signal Recovery&lt;/li&gt;
+&lt;li&gt;Neuromorphic Computation&lt;/li&gt;
+&lt;li&gt;Event-based Image Enhancement and Visual Perception&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Previously, he received the Bachelor and PhD degrees in Signal and Information Processing in 2006 and 2012, respectively, both from &lt;a href=&#34;http://www.whu.edu.cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wuhan University&lt;/a&gt;. He also got a PhD degree in Automatic Control from &lt;a href=&#34;http://www.ensea.fr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ENSEA&lt;/a&gt;/&lt;a href=&#34;http://www.u-cergy.fr/index.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Université de Cergy-Pontoise&lt;/a&gt;, Cergy, France, in November 2011. From December 2011 to March 2013, He held a Postdoctoral position in Empenn (former name: ViSaGe), working with &lt;a href=&#34;http://perso.ens-lyon.fr/remi.gribonval/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Rémi Gribonval&lt;/a&gt; and &lt;a href=&#34;http://people.irisa.fr/Christian.Barillot/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Christian Barillot&lt;/a&gt;. From March 2016 to March 2017, He was working at &lt;a href=&#34;http://http//www.duke.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Duke University&lt;/a&gt; as a visiting scholar.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

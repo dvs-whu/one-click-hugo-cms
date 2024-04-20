@@ -1,22 +1,134 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Latest News | Wowchemy Research Group</title>
-    <link>http://localhost:58547/post/</link>
-      <atom:link href="http://localhost:58547/post/index.xml" rel="self" type="application/rss+xml" />
+    <title>Latest News | DVS-WHU Group</title>
+    <link>http://localhost:1313/post/</link>
+      <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Latest News</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 20 Apr 2024 15:32:07 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:58547/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:1313/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Latest News</title>
-      <link>http://localhost:58547/post/</link>
+      <link>http://localhost:1313/post/</link>
     </image>
     
     <item>
+      <title>基于Hugo、Github和Netlify的网站架构</title>
+      <link>http://localhost:1313/post/24-04-20-%E5%9F%BA%E4%BA%8Ehugogithub%E5%92%8Cnetlify%E7%9A%84%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84/</link>
+      <pubDate>Sat, 20 Apr 2024 15:32:07 +0000</pubDate>
+      <guid>http://localhost:1313/post/24-04-20-%E5%9F%BA%E4%BA%8Ehugogithub%E5%92%8Cnetlify%E7%9A%84%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84/</guid>
+      <description>&lt;p&gt;基于Hugo、GitHub和Netlify的网站架构是一种现代、高效且深受开发者喜爱的静态网站构建与部署方案。以下是该架构的主要组成部分、工作流程以及它们之间的协作方式：&lt;/p&gt;
+&lt;h2 id=&#34;1-hugo静态网站生成器&#34;&gt;&lt;strong&gt;1. Hugo：静态网站生成器&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;角色与功能&#34;&gt;&lt;strong&gt;角色与功能&lt;/strong&gt;：&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hugo&lt;/strong&gt; 是一款开源、高性能的静态网站生成器，采用Go语言编写，以其快速构建速度和灵活性著称。&lt;/li&gt;
+&lt;li&gt;提供丰富的主题系统和模板引擎，使得用户能够快速设计出美观且响应式的网站界面，无需深入掌握前端开发技术。&lt;/li&gt;
+&lt;li&gt;支持Markdown等轻量级标记语言，便于内容创作者以文本格式编写文章、页面和元数据。&lt;/li&gt;
+&lt;li&gt;内置数据处理和内容管理功能，可处理多种数据源（如JSON、CSV、YAML等），便于集成动态内容或外部API数据。&lt;/li&gt;
+&lt;li&gt;提供命令行工具，通过简单的命令即可完成网站的创建、构建、本地预览及部署前的检查等工作。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;工作流程&#34;&gt;&lt;strong&gt;工作流程&lt;/strong&gt;：&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;用户在本地计算机上&lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;安装Hugo&lt;/a&gt;并创建新站点。&lt;/li&gt;
+&lt;li&gt;设置漂亮的主题。本站选用了 &lt;code&gt;academic&lt;/code&gt; 中的 &lt;a href=&#34;https://hugoblox.com/templates/details/research-group/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;Research Group&lt;/code&gt; 主题&lt;/a&gt;，将主题下载到本地，并解压缩到对应位置。&lt;/li&gt;
+&lt;li&gt;根据Hugo Blox介绍的方法，安装对应系统下的&lt;code&gt;go&lt;/code&gt;和&lt;code&gt;git&lt;/code&gt;软件，&lt;code&gt;cd&lt;/code&gt;到主题目录，并在终端运行 &lt;code&gt;hugo server -D&lt;/code&gt; 命令，Hugo将根据配置和模板生成纯HTML、CSS、JavaScript等静态文件，这些文件构成了最终可部署的网站。若显示如下信息，表示成功安装好了hugo和主题：
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;运行成功&#34; srcset=&#34;
+               /post/24-04-20-%E5%9F%BA%E4%BA%8Ehugogithub%E5%92%8Cnetlify%E7%9A%84%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84/image_huefeecbc9b7821eecd219a4ce66004aa9_27917_629fa934b80a1150ba0650da29ca8f2b.webp 400w,
+               /post/24-04-20-%E5%9F%BA%E4%BA%8Ehugogithub%E5%92%8Cnetlify%E7%9A%84%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84/image_huefeecbc9b7821eecd219a4ce66004aa9_27917_776213c2ec61d8e7dc7cdf18561d8472.webp 760w,
+               /post/24-04-20-%E5%9F%BA%E4%BA%8Ehugogithub%E5%92%8Cnetlify%E7%9A%84%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84/image_huefeecbc9b7821eecd219a4ce66004aa9_27917_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/post/24-04-20-%E5%9F%BA%E4%BA%8Ehugogithub%E5%92%8Cnetlify%E7%9A%84%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84/image_huefeecbc9b7821eecd219a4ce66004aa9_27917_629fa934b80a1150ba0650da29ca8f2b.webp&#34;
+               width=&#34;640&#34;
+               height=&#34;236&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;在浏览器中输入网址&lt;code&gt;http://localhost:1313/&lt;/code&gt;就能看到生成的站点网页。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;网页预览&#34; srcset=&#34;
+               /post/24-04-20-%E5%9F%BA%E4%BA%8Ehugogithub%E5%92%8Cnetlify%E7%9A%84%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84/featured_hu5127e2d785709ef8dd73cf8219ce2a78_593221_de4b427edb95fd496d24809b19ef04c4.webp 400w,
+               /post/24-04-20-%E5%9F%BA%E4%BA%8Ehugogithub%E5%92%8Cnetlify%E7%9A%84%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84/featured_hu5127e2d785709ef8dd73cf8219ce2a78_593221_dd3694532812aac77161a33e79d39782.webp 760w,
+               /post/24-04-20-%E5%9F%BA%E4%BA%8Ehugogithub%E5%92%8Cnetlify%E7%9A%84%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84/featured_hu5127e2d785709ef8dd73cf8219ce2a78_593221_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/post/24-04-20-%E5%9F%BA%E4%BA%8Ehugogithub%E5%92%8Cnetlify%E7%9A%84%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84/featured_hu5127e2d785709ef8dd73cf8219ce2a78_593221_de4b427edb95fd496d24809b19ef04c4.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;637&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;配置站点参数（如语言、主题、菜单、元信息等）以及内容目录结构。&lt;/li&gt;
+&lt;li&gt;使用Markdown撰写文章、创建页面，放置在指定目录下。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;**2. ** &lt;strong&gt;GitHub&lt;/strong&gt; &lt;strong&gt;：版本控制系统与代码托管平台&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;角色与功能&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt; 是全球知名的分布式版本控制系统Git的云服务平台，用于存储、管理和协作开发代码、文本和其他数字资产。&lt;/li&gt;
+&lt;li&gt;作为网站源码的中央仓库，GitHub提供了版本控制、分支管理、合并请求、问题跟踪、文档存储等全套软件开发工具。&lt;/li&gt;
+&lt;li&gt;具有强大的社区支持和社交特性，鼓励开放源码、代码审查和知识共享。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;工作流程&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;用户在GitHub上创建一个新的公开或私有仓库，用于存放Hugo站点的源代码（包括内容、配置、主题文件等）。&lt;/li&gt;
+&lt;li&gt;使用Git客户端将本地Hugo站点与GitHub仓库关联，通过 &lt;code&gt;git add&lt;/code&gt;, &lt;code&gt;git commit&lt;/code&gt;, 和 &lt;code&gt;git push&lt;/code&gt; 等命令将本地更改同步至云端。&lt;/li&gt;
+&lt;li&gt;在GitHub上进行版本控制、协同编辑、代码审查和问题讨论，确保网站源码始终保持最新且易于维护。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;**3. ** &lt;strong&gt;Netlify&lt;/strong&gt; &lt;strong&gt;：静态网站托管与持续部署服务&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;角色与功能&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Netlify&lt;/strong&gt; 是一个专注于静态网站托管、自动化构建、CDN分发、以及各种开发工具集成的云服务平台。&lt;/li&gt;
+&lt;li&gt;提供一键式部署功能，能够实时监测GitHub仓库的变动，当检测到新的提交时自动触发构建流程。&lt;/li&gt;
+&lt;li&gt;内置强大的构建流程管理（Build Plugins）和自定义脚本支持，可以灵活地扩展和定制构建过程。&lt;/li&gt;
+&lt;li&gt;提供全球CDN加速、HTTPS加密、自定义域名绑定、表单处理、Lambda Functions等高级功能，确保网站高性能、安全且易于扩展。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;工作流程&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;用户在Netlify上注册账号并连接到GitHub账户，授权访问所需的Hugo站点仓库。&lt;/li&gt;
+&lt;li&gt;创建新的Netlify站点，选择对应的GitHub仓库作为源码来源，并配置构建设置（如指定Hugo版本、构建命令等）。&lt;/li&gt;
+&lt;li&gt;Netlify自动识别Hugo项目，并按照设定的构建流程执行 &lt;code&gt;hugo&lt;/code&gt; 命令生成静态文件。&lt;/li&gt;
+&lt;li&gt;构建完成后，Netlify将生成的文件部署到其全球CDN网络，分配一个默认域名（或用户自定义域名）供访问。&lt;/li&gt;
+&lt;li&gt;今后每当GitHub仓库有新的提交，Netlify会自动触发构建更新，确保网站始终与源码保持同步。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;综上所述，基于Hugo、GitHub和Netlify的网站架构实现了从内容创作、源码管理到自动构建、快速部署的全链路无缝衔接。这种架构充分利用了各自工具的优势，为用户提供了高效的内容发布流程、可靠的版本控制、便捷的协作环境，以及高性能、安全的网站托管服务，尤其适用于个人博客、项目文档、企业宣传等各类静态网站场景。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Jian Yang and Monica Hall Win the Best Paper Award at Wowchemy 2020</title>
-      <link>http://localhost:58547/post/20-12-02-icml-best-paper/</link>
+      <link>http://localhost:1313/post/20-12-02-icml-best-paper/</link>
       <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:58547/post/20-12-02-icml-best-paper/</guid>
+      <guid>http://localhost:1313/post/20-12-02-icml-best-paper/</guid>
       <description>&lt;p&gt;Congratulations to Jian Yang and Monica Hall for winning the Best Paper Award at the 2020 Conference on Wowchemy for their paper “Learning Wowchemy”.&lt;/p&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.&lt;/p&gt;
 &lt;p&gt;Sed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.&lt;/p&gt;
@@ -25,9 +137,9 @@
     
     <item>
       <title>Richard Hendricks Wins First Place in the Wowchemy Prize</title>
-      <link>http://localhost:58547/post/20-12-01-wowchemy-prize/</link>
+      <link>http://localhost:1313/post/20-12-01-wowchemy-prize/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:58547/post/20-12-01-wowchemy-prize/</guid>
+      <guid>http://localhost:1313/post/20-12-01-wowchemy-prize/</guid>
       <description>&lt;p&gt;Congratulations to Richard Hendricks for winning first place in the Wowchemy Prize.&lt;/p&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.&lt;/p&gt;
 &lt;p&gt;Sed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.&lt;/p&gt;

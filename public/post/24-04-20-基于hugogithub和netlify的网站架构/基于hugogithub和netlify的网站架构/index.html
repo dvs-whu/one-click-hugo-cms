@@ -1,0 +1,1338 @@
+<!DOCTYPE html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: April 21, 2024 --><html lang="en-us" >
+
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Hugo Blox Builder 5.9.7" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Lei Yu" />
+
+
+
+
+
+  
+
+<meta name="description" content="基于Hugo、GitHub和Netlify的网站架构是一种现代、高效且深受开发者喜爱的静态网站构建与部署方案。以下是该架构的主要组成部分、工作流程以及它们之间的协作方式：" />
+
+
+
+<link rel="alternate" hreflang="en-us" href="http://localhost:1313/post/24-04-20-%E5%9F%BA%E4%BA%8Ehugogithub%E5%92%8Cnetlify%E7%9A%84%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84/%E5%9F%BA%E4%BA%8Ehugogithub%E5%92%8Cnetlify%E7%9A%84%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84/" />
+<link rel="canonical" href="http://localhost:1313/post/24-04-20-%E5%9F%BA%E4%BA%8Ehugogithub%E5%92%8Cnetlify%E7%9A%84%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84/%E5%9F%BA%E4%BA%8Ehugogithub%E5%92%8Cnetlify%E7%9A%84%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+
+  <meta property="twitter:site" content="@GetResearchDev" />
+  <meta property="twitter:creator" content="@GetResearchDev" />
+<meta property="twitter:image" content="http://localhost:1313/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" />
+
+
+
+  
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="DVS-WHU Group" />
+<meta property="og:url" content="http://localhost:1313/post/24-04-20-%E5%9F%BA%E4%BA%8Ehugogithub%E5%92%8Cnetlify%E7%9A%84%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84/%E5%9F%BA%E4%BA%8Ehugogithub%E5%92%8Cnetlify%E7%9A%84%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84/" />
+<meta property="og:title" content="基于Hugo、Github和Netlify的网站架构 | DVS-WHU Group" />
+<meta property="og:description" content="基于Hugo、GitHub和Netlify的网站架构是一种现代、高效且深受开发者喜爱的静态网站构建与部署方案。以下是该架构的主要组成部分、工作流程以及它们之间的协作方式：" /><meta property="og:image" content="http://localhost:1313/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2024-04-20T15:32:07&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2024-04-20T15:32:07&#43;00:00">
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>基于Hugo、Github和Netlify的网站架构 | DVS-WHU Group</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="7f1dfc5347613e557d77e6994f4c86a2" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">DVS-WHU Group</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">DVS-WHU Group</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/tour"><span>Tour</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/post"><span>News</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/people"><span>People</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/event"><span>Events</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/publication"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>基于Hugo、Github和Netlify的网站架构</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Apr 20, 2024
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>基于Hugo、GitHub和Netlify的网站架构是一种现代、高效且深受开发者喜爱的静态网站构建与部署方案。以下是该架构的主要组成部分、工作流程以及它们之间的协作方式：</p>
+<h2 id="1-hugo静态网站生成器"><strong>1. Hugo：静态网站生成器</strong></h2>
+<h3 id="角色与功能"><strong>角色与功能</strong>：</h3>
+<ul>
+<li><strong>Hugo</strong> 是一款开源、高性能的静态网站生成器，采用Go语言编写，以其快速构建速度和灵活性著称。</li>
+<li>提供丰富的主题系统和模板引擎，使得用户能够快速设计出美观且响应式的网站界面，无需深入掌握前端开发技术。</li>
+<li>支持Markdown等轻量级标记语言，便于内容创作者以文本格式编写文章、页面和元数据。</li>
+<li>内置数据处理和内容管理功能，可处理多种数据源（如JSON、CSV、YAML等），便于集成动态内容或外部API数据。</li>
+<li>提供命令行工具，通过简单的命令即可完成网站的创建、构建、本地预览及部署前的检查等工作。</li>
+</ul>
+<h3 id="工作流程"><strong>工作流程</strong>：</h3>
+<ul>
+<li>用户在本地计算机上<a href="https://gohugo.io/getting-started/quick-start/" target="_blank" rel="noopener">安装Hugo</a>并创建新站点。</li>
+<li>设置漂亮的主题。本站选用了 <code>academic</code> 中的 <a href="https://hugoblox.com/templates/details/research-group/" target="_blank" rel="noopener"><code>Research Group</code> 主题</a>，将主题下载到本地，并解压缩到对应位置。</li>
+<li>根据Hugo Blox介绍的方法，安装对应系统下的<code>go</code>和<code>git</code>软件，<code>cd</code>到主题目录，并在终端运行 <code>hugo server -D</code> 命令，若显示如下信息，表示成功安装好了hugo和主题：</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-hello">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="image.png" alt="" loading="lazy" data-zoomable /></div>
+  </div></figure>
+
+<ul>
+<li>配置站点参数（如语言、主题、菜单、元信息等）以及内容目录结构。</li>
+<li>使用Markdown撰写文章、创建页面，放置在指定目录下。</li>
+<li>运行 <code>hugo server -D</code> 命令，Hugo将根据配置和模板生成纯HTML、CSS、JavaScript等静态文件，这些文件构成了最终可部署的网站。</li>
+</ul>
+<p>**2. ** <strong>GitHub</strong> <strong>：版本控制系统与代码托管平台</strong></p>
+<p><strong>角色与功能</strong>：</p>
+<ul>
+<li><strong>GitHub</strong> 是全球知名的分布式版本控制系统Git的云服务平台，用于存储、管理和协作开发代码、文本和其他数字资产。</li>
+<li>作为网站源码的中央仓库，GitHub提供了版本控制、分支管理、合并请求、问题跟踪、文档存储等全套软件开发工具。</li>
+<li>具有强大的社区支持和社交特性，鼓励开放源码、代码审查和知识共享。</li>
+</ul>
+<p><strong>工作流程</strong>：</p>
+<ul>
+<li>用户在GitHub上创建一个新的公开或私有仓库，用于存放Hugo站点的源代码（包括内容、配置、主题文件等）。</li>
+<li>使用Git客户端将本地Hugo站点与GitHub仓库关联，通过 <code>git add</code>, <code>git commit</code>, 和 <code>git push</code> 等命令将本地更改同步至云端。</li>
+<li>在GitHub上进行版本控制、协同编辑、代码审查和问题讨论，确保网站源码始终保持最新且易于维护。</li>
+</ul>
+<p>**3. ** <strong>Netlify</strong> <strong>：静态网站托管与持续部署服务</strong></p>
+<p><strong>角色与功能</strong>：</p>
+<ul>
+<li><strong>Netlify</strong> 是一个专注于静态网站托管、自动化构建、CDN分发、以及各种开发工具集成的云服务平台。</li>
+<li>提供一键式部署功能，能够实时监测GitHub仓库的变动，当检测到新的提交时自动触发构建流程。</li>
+<li>内置强大的构建流程管理（Build Plugins）和自定义脚本支持，可以灵活地扩展和定制构建过程。</li>
+<li>提供全球CDN加速、HTTPS加密、自定义域名绑定、表单处理、Lambda Functions等高级功能，确保网站高性能、安全且易于扩展。</li>
+</ul>
+<p><strong>工作流程</strong>：</p>
+<ul>
+<li>用户在Netlify上注册账号并连接到GitHub账户，授权访问所需的Hugo站点仓库。</li>
+<li>创建新的Netlify站点，选择对应的GitHub仓库作为源码来源，并配置构建设置（如指定Hugo版本、构建命令等）。</li>
+<li>Netlify自动识别Hugo项目，并按照设定的构建流程执行 <code>hugo</code> 命令生成静态文件。</li>
+<li>构建完成后，Netlify将生成的文件部署到其全球CDN网络，分配一个默认域名（或用户自定义域名）供访问。</li>
+<li>今后每当GitHub仓库有新的提交，Netlify会自动触发构建更新，确保网站始终与源码保持同步。</li>
+</ul>
+<p>综上所述，基于Hugo、GitHub和Netlify的网站架构实现了从内容创作、源码管理到自动构建、快速部署的全链路无缝衔接。这种架构充分利用了各自工具的优势，为用户提供了高效的内容发布流程、可靠的版本控制、便捷的协作环境，以及高性能、安全的网站托管服务，尤其适用于个人博客、项目文档、企业宣传等各类静态网站场景。</p>
+    </div>
+
+    
+
+
+
+
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2F24-04-20-%25E5%259F%25BA%25E4%25BA%258Ehugogithub%25E5%2592%258Cnetlify%25E7%259A%2584%25E7%25BD%2591%25E7%25AB%2599%25E6%259E%25B6%25E6%259E%2584%2F%25E5%259F%25BA%25E4%25BA%258Ehugogithub%25E5%2592%258Cnetlify%25E7%259A%2584%25E7%25BD%2591%25E7%25AB%2599%25E6%259E%25B6%25E6%259E%2584%2F&amp;text=%E5%9F%BA%E4%BA%8EHugo%E3%80%81Github%E5%92%8CNetlify%E7%9A%84%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fpost%2F24-04-20-%25E5%259F%25BA%25E4%25BA%258Ehugogithub%25E5%2592%258Cnetlify%25E7%259A%2584%25E7%25BD%2591%25E7%25AB%2599%25E6%259E%25B6%25E6%259E%2584%2F%25E5%259F%25BA%25E4%25BA%258Ehugogithub%25E5%2592%258Cnetlify%25E7%259A%2584%25E7%25BD%2591%25E7%25AB%2599%25E6%259E%25B6%25E6%259E%2584%2F&amp;t=%E5%9F%BA%E4%BA%8EHugo%E3%80%81Github%E5%92%8CNetlify%E7%9A%84%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=%E5%9F%BA%E4%BA%8EHugo%E3%80%81Github%E5%92%8CNetlify%E7%9A%84%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84&amp;body=http%3A%2F%2Flocalhost%3A1313%2Fpost%2F24-04-20-%25E5%259F%25BA%25E4%25BA%258Ehugogithub%25E5%2592%258Cnetlify%25E7%259A%2584%25E7%25BD%2591%25E7%25AB%2599%25E6%259E%25B6%25E6%259E%2584%2F%25E5%259F%25BA%25E4%25BA%258Ehugogithub%25E5%2592%258Cnetlify%25E7%259A%2584%25E7%25BD%2591%25E7%25AB%2599%25E6%259E%25B6%25E6%259E%2584%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2F24-04-20-%25E5%259F%25BA%25E4%25BA%258Ehugogithub%25E5%2592%258Cnetlify%25E7%259A%2584%25E7%25BD%2591%25E7%25AB%2599%25E6%259E%25B6%25E6%259E%2584%2F%25E5%259F%25BA%25E4%25BA%258Ehugogithub%25E5%2592%258Cnetlify%25E7%259A%2584%25E7%25BD%2591%25E7%25AB%2599%25E6%259E%25B6%25E6%259E%2584%2F&amp;title=%E5%9F%BA%E4%BA%8EHugo%E3%80%81Github%E5%92%8CNetlify%E7%9A%84%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=%E5%9F%BA%E4%BA%8EHugo%E3%80%81Github%E5%92%8CNetlify%E7%9A%84%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84%20http%3A%2F%2Flocalhost%3A1313%2Fpost%2F24-04-20-%25E5%259F%25BA%25E4%25BA%258Ehugogithub%25E5%2592%258Cnetlify%25E7%259A%2584%25E7%25BD%2591%25E7%25AB%2599%25E6%259E%25B6%25E6%259E%2584%2F%25E5%259F%25BA%25E4%25BA%258Ehugogithub%25E5%2592%258Cnetlify%25E7%259A%2584%25E7%25BD%2591%25E7%25AB%2599%25E6%259E%25B6%25E6%259E%2584%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2F24-04-20-%25E5%259F%25BA%25E4%25BA%258Ehugogithub%25E5%2592%258Cnetlify%25E7%259A%2584%25E7%25BD%2591%25E7%25AB%2599%25E6%259E%25B6%25E6%259E%2584%2F%25E5%259F%25BA%25E4%25BA%258Ehugogithub%25E5%2592%258Cnetlify%25E7%259A%2584%25E7%25BD%2591%25E7%25AB%2599%25E6%259E%25B6%25E6%259E%2584%2F&amp;title=%E5%9F%BA%E4%BA%8EHugo%E3%80%81Github%E5%92%8CNetlify%E7%9A%84%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/author/lei-yu/"><img class="avatar mr-3 avatar-circle" src="/author/lei-yu/avatar_hu2093266836341f8e9687c561f8f44a9e_18151_270x270_fill_q75_lanczos_center.jpg" alt="Lei Yu"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/lei-yu/">Lei Yu</a></h5>
+      <h6 class="card-subtitle">Professor</h6>
+      <p class="card-text">My research interests include signal/image processing, computer vision, and event-based vision perception.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:ly.wd@whu.edu.cn" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/dvs-whu" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=Klc_GHUAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/dvs-whu" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2024 DVS-WHU. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+  <script src="/js/wowchemy-headroom.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.js"></script>
+
+
+
+  <script src="/js/wowchemy-map.js" type="module"></script>
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
