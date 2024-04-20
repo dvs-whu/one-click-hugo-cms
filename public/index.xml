@@ -95,10 +95,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;网页预览&#34; srcset=&#34;
-               /post/24-04-20-%E5%9F%BA%E4%BA%8Ehugogithub%E5%92%8Cnetlify%E7%9A%84%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84/featured_hu5127e2d785709ef8dd73cf8219ce2a78_593221_de4b427edb95fd496d24809b19ef04c4.webp 400w,
+               /post/24-04-20-%E5%9F%BA%E4%BA%8Ehugogithub%E5%92%8Cnetlify%E7%9A%84%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84/featured_hu5127e2d785709ef8dd73cf8219ce2a78_593221_08b59b4a09c6eddf6315b1854a78094c.webp 400w,
                /post/24-04-20-%E5%9F%BA%E4%BA%8Ehugogithub%E5%92%8Cnetlify%E7%9A%84%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84/featured_hu5127e2d785709ef8dd73cf8219ce2a78_593221_dd3694532812aac77161a33e79d39782.webp 760w,
                /post/24-04-20-%E5%9F%BA%E4%BA%8Ehugogithub%E5%92%8Cnetlify%E7%9A%84%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84/featured_hu5127e2d785709ef8dd73cf8219ce2a78_593221_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/24-04-20-%E5%9F%BA%E4%BA%8Ehugogithub%E5%92%8Cnetlify%E7%9A%84%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84/featured_hu5127e2d785709ef8dd73cf8219ce2a78_593221_de4b427edb95fd496d24809b19ef04c4.webp&#34;
+               src=&#34;http://localhost:1313/post/24-04-20-%E5%9F%BA%E4%BA%8Ehugogithub%E5%92%8Cnetlify%E7%9A%84%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84/featured_hu5127e2d785709ef8dd73cf8219ce2a78_593221_08b59b4a09c6eddf6315b1854a78094c.webp&#34;
                width=&#34;760&#34;
                height=&#34;637&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -164,6 +164,110 @@
     </item>
     
     <item>
+      <title>Autofocus for event cameras</title>
+      <link>http://localhost:1313/publication/lin-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/lin-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning to Extract Building Footprints from Off-Nadir Aerial Images</title>
+      <link>http://localhost:1313/publication/wang-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/wang-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning to See Through with Events</title>
+      <link>http://localhost:1313/publication/yu-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/yu-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning to Super-Resolve Blurry Images with Events</title>
+      <link>http://localhost:1313/publication/yu-2022-b/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/yu-2022-b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RFLA: Gaussian Receptive Field Based Label Assignment for Tiny Object Detection</title>
+      <link>http://localhost:1313/publication/xu-2022-rfla/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/xu-2022-rfla/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spiking Sparse Recovery with Non-convex Penalties</title>
+      <link>http://localhost:1313/publication/yu-2022-a/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/yu-2022-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synthetic aperture imaging with events and frames</title>
+      <link>http://localhost:1313/publication/liao-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/liao-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unifying motion deblurring and frame interpolation with events</title>
+      <link>http://localhost:1313/publication/zhang-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/zhang-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Event-based Synthetic Aperture Imaging with a Hybrid Network</title>
+      <link>http://localhost:1313/publication/zhang-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/zhang-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image super-resolution by learning weighted convolutional sparse coding</title>
+      <link>http://localhost:1313/publication/he-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/he-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Motion Deblurring with Real Events</title>
+      <link>http://localhost:1313/publication/xu-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/xu-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Single Image Deraining With Continuous Rain Density Estimation</title>
+      <link>http://localhost:1313/publication/key/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/key/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ULSD: Unified line segment detection across pinhole, fisheye, and spherical cameras</title>
+      <link>http://localhost:1313/publication/li-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/li-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Jian Yang and Monica Hall Win the Best Paper Award at Wowchemy 2020</title>
       <link>http://localhost:1313/post/20-12-02-icml-best-paper/</link>
       <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
@@ -186,6 +290,118 @@
     </item>
     
     <item>
+      <title>Aim-Net: Bring Implicit Euler to Network Design</title>
+      <link>http://localhost:1313/publication/yuan-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/yuan-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Distributed compressive sensing via LSTM-Aided sparse Bayesian learning</title>
+      <link>http://localhost:1313/publication/zhang-2020-f/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/zhang-2020-f/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Spatial-Temporal Normalization of SAE Representation for Event Camera</title>
+      <link>http://localhost:1313/publication/lin-2020-efficient/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/lin-2020-efficient/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Event enhanced high-quality image recovery</title>
+      <link>http://localhost:1313/publication/wang-2020-k/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/wang-2020-k/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Event-based high frame-rate video reconstruction with a novel cycle-event network</title>
+      <link>http://localhost:1313/publication/yu-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/yu-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Facial Feature Embedded CycleGAN for VIS-NIR Translation</title>
+      <link>http://localhost:1313/publication/wang-2020-l/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/wang-2020-l/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implicit Euler ODE networks for single-image dehazing</title>
+      <link>http://localhost:1313/publication/shen-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/shen-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Matching Neuromorphic Events and Color Images via Adversarial Learning</title>
+      <link>http://localhost:1313/publication/xu-2020-matching/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/xu-2020-matching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust Intensity Image Reconstruciton Based On Event Cameras</title>
+      <link>http://localhost:1313/publication/jiang-2020-robust/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/jiang-2020-robust/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust motion compensation for event cameras with smooth constraint</title>
+      <link>http://localhost:1313/publication/xu-2020-a/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/xu-2020-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Structured Bayesian learning for recovery of clustered sparse signal</title>
+      <link>http://localhost:1313/publication/wang-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/wang-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>基于事件相机的合成孔径成像</title>
+      <link>http://localhost:1313/publication/yulei-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/yulei-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>低维流形约束下的事件相机去噪算法</title>
+      <link>http://localhost:1313/publication/jiang-2019/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/jiang-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamical sparse signal recovery with fixed-time convergence</title>
+      <link>http://localhost:1313/publication/ren-2019-c/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/ren-2019-c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>An example preprint / working paper</title>
       <link>http://localhost:1313/publication/preprint/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
@@ -197,6 +413,105 @@
 &lt;/div&gt;
 &lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>A Dynamical System With Fixed Convergence Time for Sparse Recovery</title>
+      <link>http://localhost:1313/publication/ren-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/ren-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Algorithm to compute nonlinear partial observer normal form with multiple outputs</title>
+      <link>http://localhost:1313/publication/saadi-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/saadi-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Block-sparsity recovery via recurrent neural network</title>
+      <link>http://localhost:1313/publication/lyu-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/lyu-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DET: A High-Resolution DVS Dataset for Lane Extraction</title>
+      <link>http://localhost:1313/publication/cheng-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/cheng-2019/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Add the publication&#39;s **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Image Denoising via Nonlocal Low Rank Approximation With Local Structure Preserving</title>
+      <link>http://localhost:1313/publication/liu-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/liu-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Live Demonstration: Real-Time Vi-SLAM With High-Resolution Event Camera</title>
+      <link>http://localhost:1313/publication/yang-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/yang-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image restoration via Bayesian dictionary learning with nonlocal structured beta process</title>
+      <link>http://localhost:1313/publication/liu-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/liu-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image Super-Resolution via RL-CSC: When Residual Learning Meets Convolutional Sparse Coding</title>
+      <link>http://localhost:1313/publication/zhang-2018-a/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/zhang-2018-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamical sparse recovery with finite-time convergence</title>
+      <link>http://localhost:1313/publication/yu-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/yu-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sparse Bayesian learning for image rectification with transform invariant low-rank textures</title>
+      <link>http://localhost:1313/publication/hu-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/hu-2017/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -219,6 +534,14 @@
     </item>
     
     <item>
+      <title>Model based Bayesian compressive sensing via local beta process</title>
+      <link>http://localhost:1313/publication/yu-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/yu-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>An example conference paper</title>
       <link>http://localhost:1313/publication/conference-paper/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
@@ -235,6 +558,30 @@
 &lt;/div&gt;
 &lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Bayesian compressive sensing for cluster structured sparse signals</title>
+      <link>http://localhost:1313/publication/yu-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/yu-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compressive sensing with chaotic sequence</title>
+      <link>http://localhost:1313/publication/yu-2010-f/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/yu-2010-f/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Observability forms for switched systems with zeno phenomenon or high switching frequency</title>
+      <link>http://localhost:1313/publication/yu-2010-g/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/yu-2010-g/</guid>
+      <description></description>
     </item>
     
     <item>

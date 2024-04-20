@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Haijian Zhang | DVS-WHU Group</title>
+    <link>http://localhost:1313/author/haijian-zhang/</link>
+      <atom:link href="http://localhost:1313/author/haijian-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Haijian Zhang</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Haijian Zhang</title>
+      <link>http://localhost:1313/author/haijian-zhang/</link>
+    </image>
+    
+    <item>
+      <title>Learning to Super-Resolve Blurry Images with Events</title>
+      <link>http://localhost:1313/publication/yu-2022-b/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/yu-2022-b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Distributed compressive sensing via LSTM-Aided sparse Bayesian learning</title>
+      <link>http://localhost:1313/publication/zhang-2020-f/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/zhang-2020-f/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Facial Feature Embedded CycleGAN for VIS-NIR Translation</title>
+      <link>http://localhost:1313/publication/wang-2020-l/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/wang-2020-l/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

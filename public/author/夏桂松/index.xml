@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> 夏桂松 | DVS-WHU Group</title>
+    <link>http://localhost:1313/author/%E5%A4%8F%E6%A1%82%E6%9D%BE/</link>
+      <atom:link href="http://localhost:1313/author/%E5%A4%8F%E6%A1%82%E6%9D%BE/index.xml" rel="self" type="application/rss+xml" />
+    <description> 夏桂松</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title> 夏桂松</title>
+      <link>http://localhost:1313/author/%E5%A4%8F%E6%A1%82%E6%9D%BE/</link>
+    </image>
+    
+    <item>
+      <title>基于事件相机的合成孔径成像</title>
+      <link>http://localhost:1313/publication/yulei-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/yulei-2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

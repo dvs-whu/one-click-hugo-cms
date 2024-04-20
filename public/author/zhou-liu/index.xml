@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zhou Liu | DVS-WHU Group</title>
+    <link>http://localhost:1313/author/zhou-liu/</link>
+      <atom:link href="http://localhost:1313/author/zhou-liu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zhou Liu</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Zhou Liu</title>
+      <link>http://localhost:1313/author/zhou-liu/</link>
+    </image>
+    
+    <item>
+      <title>Image super-resolution by learning weighted convolutional sparse coding</title>
+      <link>http://localhost:1313/publication/he-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/he-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust Intensity Image Reconstruciton Based On Event Cameras</title>
+      <link>http://localhost:1313/publication/jiang-2020-robust/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/jiang-2020-robust/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Block-sparsity recovery via recurrent neural network</title>
+      <link>http://localhost:1313/publication/lyu-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/lyu-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image Denoising via Nonlocal Low Rank Approximation With Local Structure Preserving</title>
+      <link>http://localhost:1313/publication/liu-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/liu-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image restoration via Bayesian dictionary learning with nonlocal structured beta process</title>
+      <link>http://localhost:1313/publication/liu-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/liu-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image Super-Resolution via RL-CSC: When Residual Learning Meets Convolutional Sparse Coding</title>
+      <link>http://localhost:1313/publication/zhang-2018-a/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/zhang-2018-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sparse Bayesian learning for image rectification with transform invariant low-rank textures</title>
+      <link>http://localhost:1313/publication/hu-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/hu-2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

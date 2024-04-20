@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shihui Hu | DVS-WHU Group</title>
+    <link>http://localhost:1313/author/shihui-hu/</link>
+      <atom:link href="http://localhost:1313/author/shihui-hu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Shihui Hu</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Shihui Hu</title>
+      <link>http://localhost:1313/author/shihui-hu/</link>
+    </image>
+    
+    <item>
+      <title>Sparse Bayesian learning for image rectification with transform invariant low-rank textures</title>
+      <link>http://localhost:1313/publication/hu-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/hu-2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

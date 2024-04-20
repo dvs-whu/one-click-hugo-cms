@@ -5,7 +5,7 @@
     <link>http://localhost:1313/category/users/</link>
       <atom:link href="http://localhost:1313/category/users/index.xml" rel="self" type="application/rss+xml" />
     <description>Users</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 20 Apr 2024 15:20:52 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Users</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Lei Yu</title>
       <link>http://localhost:1313/author/lei-yu/</link>
-      <pubDate>Sat, 20 Apr 2024 15:20:52 +0000</pubDate>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/author/lei-yu/</guid>
       <description>&lt;p&gt;余磊 is currently a full Professor of the &lt;a href=&#34;http://eis.whu.edu.cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;School of Electronic and Information&lt;/a&gt; at &lt;a href=&#34;http://www.whu.edu.cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wuhan University&lt;/a&gt; and leading a group &lt;a href=&#34;http://dvs-whu.cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DVS-WHU&lt;/a&gt; in the &lt;a href=&#34;http://dsp.whu.edu.cn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SPLab&lt;/a&gt; which is devoted for &lt;a href=&#34;https://github.com/uzh-rpg/event-based_vision_resources&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;event-based perception&lt;/a&gt;. In general his research interest includes signal processing, deep learning and computer vision. Specifically, he is currently interested in:&lt;/p&gt;
 &lt;ul&gt;

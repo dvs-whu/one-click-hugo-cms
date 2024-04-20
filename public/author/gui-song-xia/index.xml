@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gui-Song Xia | DVS-WHU Group</title>
+    <link>http://localhost:1313/author/gui-song-xia/</link>
+      <atom:link href="http://localhost:1313/author/gui-song-xia/index.xml" rel="self" type="application/rss+xml" />
+    <description>Gui-Song Xia</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Gui-Song Xia</title>
+      <link>http://localhost:1313/author/gui-song-xia/</link>
+    </image>
+    
+    <item>
+      <title>Learning to Extract Building Footprints from Off-Nadir Aerial Images</title>
+      <link>http://localhost:1313/publication/wang-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/wang-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning to See Through with Events</title>
+      <link>http://localhost:1313/publication/yu-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/yu-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RFLA: Gaussian Receptive Field Based Label Assignment for Tiny Object Detection</title>
+      <link>http://localhost:1313/publication/xu-2022-rfla/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/xu-2022-rfla/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Event-based Synthetic Aperture Imaging with a Hybrid Network</title>
+      <link>http://localhost:1313/publication/zhang-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/zhang-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Event enhanced high-quality image recovery</title>
+      <link>http://localhost:1313/publication/wang-2020-k/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/wang-2020-k/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implicit Euler ODE networks for single-image dehazing</title>
+      <link>http://localhost:1313/publication/shen-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/shen-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Matching Neuromorphic Events and Color Images via Adversarial Learning</title>
+      <link>http://localhost:1313/publication/xu-2020-matching/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/xu-2020-matching/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

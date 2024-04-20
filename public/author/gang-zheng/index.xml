@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gang Zheng | DVS-WHU Group</title>
+    <link>http://localhost:1313/author/gang-zheng/</link>
+      <atom:link href="http://localhost:1313/author/gang-zheng/index.xml" rel="self" type="application/rss+xml" />
+    <description>Gang Zheng</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Gang Zheng</title>
+      <link>http://localhost:1313/author/gang-zheng/</link>
+    </image>
+    
+    <item>
+      <title>Spiking Sparse Recovery with Non-convex Penalties</title>
+      <link>http://localhost:1313/publication/yu-2022-a/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/yu-2022-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aim-Net: Bring Implicit Euler to Network Design</title>
+      <link>http://localhost:1313/publication/yuan-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/yuan-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamical sparse signal recovery with fixed-time convergence</title>
+      <link>http://localhost:1313/publication/ren-2019-c/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/ren-2019-c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Algorithm to compute nonlinear partial observer normal form with multiple outputs</title>
+      <link>http://localhost:1313/publication/saadi-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/saadi-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamical sparse recovery with finite-time convergence</title>
+      <link>http://localhost:1313/publication/yu-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/yu-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Model based Bayesian compressive sensing via local beta process</title>
+      <link>http://localhost:1313/publication/yu-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/yu-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian compressive sensing for cluster structured sparse signals</title>
+      <link>http://localhost:1313/publication/yu-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/yu-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compressive sensing with chaotic sequence</title>
+      <link>http://localhost:1313/publication/yu-2010-f/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/yu-2010-f/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
